@@ -3,11 +3,11 @@ on: workflow_dispatch
 jobs:
   first-job:
     runs-on: ubuntu-latest
-      steps:
-        - name: Print greetings
-          run: echo "Hello vasp-GHA"
-        - name: Print goodbye
-          run: echo "Goodbye vasp-GHA"
+    steps:
+      - name: Print greetings
+        run: echo "Hello vasp-GHA"
+      - name: Print goodbye
+        run: echo "Goodbye vasp-GHA"
         
 
       
